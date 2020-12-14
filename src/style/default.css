@@ -1,0 +1,79 @@
+
+body{
+    direction: rtl;
+}
+.base-container{
+    width: 40%;
+    margin: 300px auto;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.container-right{
+    border: 1px solid #cdc;
+    width: 60%;
+    padding:10px ;
+    text-align: center;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+}
+
+.container-left{
+    background-color: slategrey;
+    text-align: center;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+}
+.container-left a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header{
+    font-weight: bold;
+    margin-bottom: 25px;
+   
+
+}
+.form-group{
+    margin: 10px 0;
+}
+.form-group label{
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+
+}
+.form-group input{
+    border: 1px solid #ddd;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+
+}
+.form-group input::placeholder{
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.btn{
+    border: none;
+    font-weight: bold;
+    padding: 15px;
+    margin: 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+
+
+}
+.message{
+    color: green;
+    text-decoration: none;
+}
